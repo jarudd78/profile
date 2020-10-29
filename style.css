@@ -1,0 +1,139 @@
+body{
+  background: url('image/lake2.png') no-repeat center center fixed; 
+  background-size: cover;
+  height: 100%;
+  overflow: scroll;
+  margin: auto;
+  }
+header{
+  letter-spacing: 4px;
+  background-color: #80808025;
+  color: red;
+  margin-top: 30px;
+}
+.shadow{
+  text-shadow: 2px 2px #000;
+  padding-bottom:20px;
+  
+}
+header, h1, h3, h2, p, .nav-bar .button, .first-article p{
+  font-family: Sans serif;
+  text-align: center;
+}
+.nav-bar .button, footer, ul {
+  color: #000;
+}
+h1 {
+  font-size: 60px;
+  margin-top: 50px;
+  margin-left: 0;
+  padding-top: 15px;
+}
+h2{
+  font-size: 35px;
+}
+h3{
+  font-size: 28px;
+  margin: 0;
+  padding: 3%;
+}
+
+/*--- Anchor tags ---*/
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.nav-bar a:hover{
+  color: #6859048e;
+  background-color: #fff;
+}
+
+/*-- Nav Bar --*/
+.nav-bar .button{
+  background-color: #4a52c241;
+  text-decoration: none;
+  margin: 5px 35px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/*-- Introduction  --*/
+#introduction{
+  margin: 15% 31%;
+  background-color: rgba(255, 255, 255, 0.37);
+}
+.first-article p{
+  margin:0% 2%;
+}
+.intro{
+  margin-top: 0;
+  padding-top: 1px;
+}
+.intro img{
+  display: block;
+  border: solid 3px #85856de0;
+  height: 50%;
+  width: 82%;
+  margin: 5% 8%;
+}
+p, ol li{
+  font-size: 20px;
+  margin: 10px;
+  padding-bottom: 20px;
+ }
+hr{
+  display: block;
+  border: 0;
+  height: 10px;
+  width: 65%;
+  background-color: rgba(25, 39, 44, 0.746);
+}
+
+/*--  About --*/
+.second-article{
+  background-color: rgba(255, 255, 255, 0.37);
+  margin: 15% 25%;
+  padding: 25px 35px; 
+}
+span{
+  color:rgb(49, 65, 13);
+  text-decoration-line: underline;
+}
+/*--- Contact List --*/
+footer {
+  background-color: rgba(99, 99, 243, 0.246);
+  height: 100%;
+  width: 100%;
+  margin-top: 5%;
+
+}
+
+#contact h2{
+  text-align:center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 5%;
+}
+#contact ul{
+  margin-top: 0;
+  margin-bottom: 10%;
+  padding-bottom: 5%;
+}
+ul li{
+  list-style: none;
+  display: inline;
+  margin: 1% 6%;
+  padding-left: 40px;
+
+}
+.connect img{
+  height: 3%;
+  width: 2%;
+  list-style-type: none !important;
+}
+
+
+
+
+ 
