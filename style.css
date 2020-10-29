@@ -17,7 +17,7 @@ header{
   
 }
 header, h1, h3, h2, p, .nav-bar .button, .first-article p{
-  font-family: Sans serif;
+  font-family: Sans,serif;
   text-align: center;
 }
 .nav-bar .button, footer, ul {
